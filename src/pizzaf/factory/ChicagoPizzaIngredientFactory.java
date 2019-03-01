@@ -2,9 +2,7 @@ package pizzaf.factory;
 
 import pizzaf.ingredients.*;
 
-public class ChicagoPizzaIngredientFactory
-	implements IngredientFactory
-{
+public class ChicagoPizzaIngredientFactory implements IngredientFactory{
 
 	public Dough createDough() {
 		return new ThickCrustDough();
