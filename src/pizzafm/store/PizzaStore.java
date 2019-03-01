@@ -4,7 +4,7 @@ import pizzafm.pizza.Pizza;
 
 public abstract class PizzaStore {
  
-	abstract Pizza createPizza(String item);
+	public abstract Pizza createPizza(String item);
  
 	public Pizza orderPizza(String type) {
 		Pizza pizza = createPizza(type);
